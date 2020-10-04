@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+   max-width: 1024px;
+    margin: 0px auto;
+}
+.logo-zing img{
+    display: block;
+    width: 100px;
+    height: 32px;
+}
+.top-banner{
+    padding-top: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.find-song-zing{
+    position: relative;
+    color: #32323d;
+    width: 500px;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border:1px solid rgb(173, 165, 165);
+    border-radius: 50px;
+   
+}
+.find-song-zing .icon-search{
+    position: absolute;
+    top:4px;
+    left: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #495057
+}
+.find-song-zing input{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    position: absolute;
+    top:10px;
+    left: 40px;
+}
+.right-perform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-perform .info-login img{
+    width: 40px;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.right-perform .icon-notice{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #495057;
+    border-radius: 50%;
+    background: rgba(141,141,141,.5);
+    padding: 5px 10px;
+}
+.right-perform .icon-upload{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #495057;
+    border-radius: 50%;
+    background: rgba(141,141,141,.5);
+    padding: 5px 10px;
+}
+
+.menu-zing ul li{
+    display: inline-block;
+    padding: 20px 0;
+}
+.menu-zing >ul >li a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    
+}
+.menu-zing >ul >li:last-child{
+    padding:3px 10px;
+    background-color: rgb(253, 141, 48);
+    border-radius: 50px;
+    text-align: center;
+}
+.menu-zing >ul >li a:hover{
+    color: rgb(118, 59, 160);
+}
+
+
+.banner-zing{
+    position: relative;
+    
+}
+.avar-zing{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+.avar-zing img{
+    margin-right: 5px;
+    width: 70px;
+    height: auto;
+    border-radius: 5px;
+}
+/* .avar-zing .avar-1:hover + .img-1{
+    display: block;
+} */
+.avar-zing .avar-2 >img:hover + .img-2 >img {
+    display: block;
+}
+.playlist-zing{
+    padding: 30px 0;
+    width: 100%;
+    
+}
+.list h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #32323d;
+    text-transform: capitalize;
+}
+.list-sing-hot .album-hot{
+    width: 18%;
+    flex-basis: 18%;
+    
+}
+.list-sing-hot{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.list-sing-hot img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+.list-sing-hot p{
+    color: black;
+    text-transform: capitalize;
+}
+.list-sing-hot p:hover{
+    color: #32323d;
+}
+.list-sing-hot span{
+    color:rgb(155, 143, 143);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.list-song-vn .img-vn img{
+   border-radius: 5px;  
+   margin-bottom: 20px;
+}
+.list-album{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pro-album{
+    width: 30%;
+}
+.album-item {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.album-item img{
+    width: 40px;
+    height: auto;
+    border-radius: 3px;
+}
+.album-item .card-info{
+    margin-left: 10px;
+}
+.album-item .card-info p{
+   
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.36;
+    text-align: left;
+    text-transform: capitalize;
+
+
+}
+.album-item .card-info p> a{
+    color: black;
+    text-transform: capitalize;
+}
+.album-item .card-info span a{
+    color:rgb(131, 122, 122);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.album-item:hover {
+    background-color: rgb(161, 152, 152);
+}
