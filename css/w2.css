@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: block;
+}
+
+.menu{
+    height: 50px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(51, 213, 224);
+}
+.menu >ul >li{
+    position: relative;
+    display: inline-block;
+    position: relative;
+}
+.menu >ul >li >a{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color:black;
+    text-transform: capitalize;
+    margin: 0 50px;
+    font-size: 20px;
+    font-weight: 600;
+
+} 
+.menu >ul >li:nth-child(2)::after {
+    position: absolute;
+    content: ' ';
+    display: inline-block;
+    top:20px;
+    right: 20px;
+    border-top: 11px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.menu >ul >li:hover{
+    background-color: rgb(204, 159, 202);
+
+}
+.menu >ul >li >ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgb(51, 213, 224);
+}
+.menu >ul >li >ul >li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color:black;
+    text-transform: capitalize;
+    margin: 0 10px ;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu >ul >li:hover >ul{
+    display: block;
+}
+.menu >ul >li >ul >li:hover{
+    background-color: rgb(202, 148, 199);
+
+}
+.menu >ul >li >ul li{
+    position: relative;
+}
+.menu >ul >li >ul >li ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    background-color: rgb(51, 213, 224);
+
+}
+.menu >ul >li >ul >li:hover >ul{
+    display: block;
+}
+.menu >ul >li >ul >li >ul >li:hover >ul{
+    display: block;
+}
+.menu >ul >li >ul >li >ul >li >ul >li:hover >ul{
+    display: block;
+}
+.menu >ul li:hover{
+    background-color: rgb(202, 148, 199);
+
+}
